@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/256ba01b30.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>SANDMAN</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo"><h1>SANDMAN</h1></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href=""class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        
+        <section class="sec">
+            <div class="categ">
+                <ul>
+                    <h3>GAMING</h3>
+                    <li><a href="laptop.html">LAPTOPS</a></li>
+                    <li><a href="desktop.html">DESKTOPS</a></li>
+                    <h3>PERIPHERALS</h3>
+                    <li><a href="#" class="active">KEYBOARD</a></li>
+                    <li><a href="mouse.html">MOUSE</a></li>
+                    <li><a href="headset.html">HEADSET</a></li>
+
+                </ul>
+            </div>
+            <div class="products">
+                <!-- CARD START -->
+                <div class="card">
+                    <div class="img"><img src="images\kb1.png" alt=""></div>
+                    <div class="desc">EasyView Luminouse high contract 4X large print yellow keycap, multimedia USB keyboard, for low vision</div>
+                    <div class="title">Adesso AKB-132UY</div>
+                    <div class="box">
+                        <div class="price">₱1,590</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\kb2.png" alt=""></div>
+                    <div class="desc">Gaming Keyboard with 16.8 Million Lighting Colors Cherry MX Blue</div>
+                    <div class="title">Logitech G213 Prodigy</div>
+                    <div class="box">
+                        <div class="price">₱3,380</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\kb3.png" alt=""></div>
+                    <div class="desc">RGB Backlit LED, 5 Programmable Macro Keys, Dedicated Media Keys, Water Resistant, 834-W0-12US-KR</div>
+                    <div class="title">EVGA Z12</div>
+                    <div class="box">
+                        <div class="price">₱2,000</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\kb4.png" alt=""></div>
+                    <div class="desc">Water Resistant Gaming Keyboard, Premium Magnetic Wrist Rest (Whisper Quiet Gaming Switch)</div>
+                    <div class="title">SteelSeries Apex 3</div>
+                    <div class="box">
+                        <div class="price">₱3,300</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\kb5.png" alt=""></div>
+                    <div class="desc">BR Wired Mechanical Gaming Keyboard with Kailh Brown Switches, 19 RGB LED Backlight Effects, NKRO, Anti-Ghosting, Vivid Customizable Rim Backlights, 3-Way Cable Slot</div>
+                    <div class="title">Rosewill NEON K75 V2</div>
+                    <div class="box">
+                        <div class="price">₱4,420</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\kb6.png" alt=""></div>
+                    <div class="desc">Gaming Backlit RGB Dedicated Hotkeys Anti-Ghosting Water Resistant Gaming Keyboard</div>
+                    <div class="title">MSI Vigor GK20</div>
+                    <div class="box">
+                        <div class="price">₱2,100</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+            </div>
+        </section>
+        <footer>
+            <p>Copyrights at <a href="">SANDMAN</a></p>
+        </footer>
+        <script type="text/javascript">
+            $(".menu-btn").click(function(){
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        </script>
+    </body>
+</html>

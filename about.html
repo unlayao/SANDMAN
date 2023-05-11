@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/256ba01b30.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>SANDMAN</title>
+    </head>
+    <body>
+        <!-- navbar here -->
+        <nav class="navbar">
+            <div class="logo"><h1>SANDMAN</h1></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="laptop.html">Products</a></li>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- infos -->
+        <div class="heading">
+            <h1>ABOUT US</h1>
+            <p>Gaming has become a popular form of entertainment around the world, with millions of people playing video games daily. 
+            </p>
+        </div>
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="images\gaming.jpg">
+                </div>
+                <div class="about-content">
+                    <h2>
+                        Powered by Gaming
+                    </h2>
+                    <p>
+                        Welcome to SANDMAN, where we offer the latest technology and high-quality components for all your computer needs. 
+                        Our team is dedicated to providing you with the best possible shopping experience and top-notch customer service.
+                        At SANDMAN, we understand that technology is constantly evolving, and that's why we stay up-to-date with the latest advancements in computer hardware. 
+                        Whether you're looking for a powerful gaming rig, a sleek laptop for work or school, or any other computer-related products, we've got you covered.
+                        Thank you for choosing SANDMAN for your computer needs. 
+                        We look forward to serving you and helping you find the perfect system for your home, office, or gaming setup.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- footer here -->
+        <footer>
+            <p>Copyrights at <a href="">SANDMAN</a></p>
+        </footer>
+        <!-- end of footer -->
+
+
+        <!-- responsive navbar -->
+        <script type="text/javascript">
+            $(".menu-btn").click(function(){
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        </script>
+    </body>
+</html>

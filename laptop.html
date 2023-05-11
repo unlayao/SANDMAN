@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/256ba01b30.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>SANDMAN</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo"><h1>SANDMAN</h1></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href=""class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        
+        <section class="sec">
+            <div class="categ">
+                <ul>
+                    <h3>GAMING</h3>
+                    <li><a href="#" class="active">LAPTOPS</a></li>
+                    <li><a href="desktop.html">DESKTOPS</a></li>
+                    <h3>PERIPHERALS</h3>
+                    <li><a href="keyboard.html">KEYBOARD</a></li>
+                    <li><a href="mouse.html">MOUSE</a></li>
+                    <li><a href="headset.html">HEADSET</a></li>
+
+                </ul>
+            </div>
+            <div class="products">
+                <!-- CARD START -->
+                <div class="card" data-name="l1">
+                    <div class="img"><img src="images\laptop1.png" alt=""></div>
+                    <div class="desc">ES93 15.6" Gaming Laptop [300Hz][i9-12900H][RTX 3060 6GB][16GB DDR5][512GB SSD][Black]</div>
+                    <div class="title">ROG STRIX SCAR 15</div>
+                    <div class="box">
+                        <div class="price">₱94,900</div>
+                        <button class="btn" id="add-animation">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\laptop2.png" alt=""></div>
+                    <div class="desc">14" QHD Gaming Laptop [165Hz][Ryzen 9 6900HX][RTX 3070Ti 8GB][16GB DDR5][1TB SSD][Black]</div>
+                    <div class="title">Razer Blade 14</div>
+                    <div class="box">
+                        <div class="price">₱159,900</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\laptop3.png" alt=""></div>
+                    <div class="desc">15.6" QHD Gaming Laptop [240Hz][Ryzen 7 6800H][RTX 3070Ti 8GB][16GB DDR5][512GB SSD]</div>
+                    <div class="title">Alienware M15 R7</div>
+                    <div class="box">
+                        <div class="price">₱120,900</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+                 <!-- CARD START -->
+                 <div class="card">
+                    <div class="img"><img src="images\laptop4.png" alt=""></div>
+                    <div class="desc">15.6" Gaming Laptop [144Hz][i7-12650H][RTX 3050Ti 4GB][16GB DDR4][512GB SSD][Mica Silver]</div>
+                    <div class="title">HP Victus</div>
+                    <div class="box">
+                        <div class="price">₱65,900</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- CARD END -->
+            </div>
+        </section>
+        <footer>
+            <p>Copyrights at <a href="">SANDMAN</a></p>
+        </footer>
+        <script src="app.js"></script>
+        <script type="text/javascript">
+            $(".menu-btn").click(function(){
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        </script>
+    </body>
+</html>
